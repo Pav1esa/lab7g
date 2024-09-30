@@ -1,0 +1,98 @@
+/* Основні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e7eff6; /* Легкий блакитний фон */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px; /* Зменшено відступ */
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Стилі для заголовка "Draggable" */
+  .draggable-title {
+    font-size: 1.7em;
+    color: #4CAF50;
+    margin-bottom: 15px; /* Зменшено відступ */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Контейнер для draggable елемента */
+  .draggable-container {
+    width: 500px; /* Розширено */
+    height: 200px; /* Зменшено */
+    border: 2px dashed #333;
+    margin: 0 auto 20px auto; /* Центрування і відступ знизу */
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стилі для draggable елемента */
+  #draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    border: 2px solid #4CAF50;
+    background-color: #e8f5e9;
+    text-align: center;
+    line-height: 150px;
+    cursor: move;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Стилі для Accordion */
+  #accordion {
+    width: 500px; /* Розширено */
+    margin: 0 auto; /* Центрування */
+  }
+  
+  /* Стилі для Datepicker */
+  .datepicker-container {
+    text-align: center; /* Центрування тексту */
+    margin-top: 20px; /* Зменшено відступ зверху */
+  }
+  
+  #datepicker {
+    padding: 10px;
+    width: 220px; /* Ширина поля вводу */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .owl-carousel .item {
+    background: #4CAF50; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+    height: 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+  }
+  .owl-carousel .item img {
+    width: 100%; /* Займає всю ширину контейнера */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    display: block; /* Убирає пробіли під зображенням */
+    border-radius: 8px; /* За бажанням */
+}

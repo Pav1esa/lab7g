@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery and plug-ins</title>
+  
+  <!-- Підключення jQuery UI стилів -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+  <!-- Підключення власних стилів -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+  <link rel="stylesheet" href="unitegallery/css/unite-gallery.css" type="text/css" /> 
+  <link rel="stylesheet" href="unitegallery/themes/default/ug-theme-default.css" type="text/css" />
+
+
+  <link  href='unitegallery/themes/video/skin-right-no-thumb.css' rel='stylesheet' type='text/css' />
+  <link  href='unitegallery/themes/video/skin-right-thumb.css' rel='stylesheet' type='text/css' />
+  <link  href='unitegallery/themes/video/skin-right-title-only.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+
+  <!-- Заголовок -->
+  <h1>jQuery and plug-ins</h1>
+
+  <!-- Підзаголовок для draggable -->
+  <h2 class="draggable-title">Draggable</h2>
+
+  <!-- Контейнер для draggable елемента -->
+  <div class="draggable-container">
+    <div id="draggable" class="ui-widget-content">
+      <img src="img/iphone.jpg" alt="iPhone" style="width: 100%; height: auto; border-radius: 8px;">
+    </div>
+  </div>
+
+  <!-- Підзаголовок для Accordion -->
+  <h2 class="accordion-title">Accordion</h2>
+
+  <!-- Accordion -->
+  <div id="accordion">
+    <h3>Section 1</h3>
+    <div>
+      <p>
+        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+      </p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+      <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+      </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+      <p>
+        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+      </p>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+      </ul>
+    </div>
+    <h3>Section 4</h3>
+    <div>
+      <p>
+        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+        mauris vel est.
+      </p>
+      <p>
+        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos.
+      </p>
+    </div>
+  </div>
+
+  <!-- Підзаголовок для Datepicker -->
+  <h2 class="datepicker-title">Datepicker</h2>
+
+  <!-- Datepicker -->
+  <div class="datepicker-container">
+    <p>Date: <input type="text" id="datepicker"></p>
+  </div>
+   <!-- owl -->
+   <h2 class="carousel-title">Carousel</h2>
+   <div class="owl-carousel owl-theme">
+       <div class="item"><img src="img/1400x936.jpg" alt="Image 1"></div>
+       <div class="item"><img src="img/167375.jpg" alt="Image 2"></div>
+       <div class="item"><img src="img/168362.jpg" alt="Image 3"></div>
+       <div class="item"><img src="img/1_29sl-e3.jpg" alt="Image 4"></div>
+       <div class="item"><img src="img/2023_BMW_230i_M_Sport.jpg" alt="Image 5"></div>
+       <div class="item"><img src="img/4f1135c7-d1ef0bb6d588d2a9a379b19a37020f34.jpg" alt="Image 6"></div>
+       <div class="item"><img src="img/BMW_5-Series_G38_Li_Facelift_Shishi_01_2022-04-23.jpg" alt="Image 7"></div>
+       <div class="item"><img src="img/BMW_M3_Competition_(G80)_IMG_4042.jpg" alt="Image 8"></div>
+       <div class="item"><img src="img/ca00c976ee2f7270da9cc5277bdc7388.jpg" alt="Image 9"></div>
+       <div class="item"><img src="img/image.png" alt="Image 10"></div>
+       <div class="item"><img src="img/istockphoto-1435226078-612x612.jpg" alt="Image 11"></div>
+       <div class="item"><img src="img/p1760962-1544101050.jpg" alt="Image 12"></div>
+   </div>
+
+   <div class="container"></div>
+    <h1>Unite Gallery default</h1>
+    
+    
+    
+    <div id="gallery"  style="display: none;">
+      <img alt="Image 1 Title" src="./img/1400x936.jpg"
+        data-image="img/1400x936.jpg"
+        data-description="ocen1">
+
+        <img alt="Image 2 Title" src="./img/167375.jpg"
+        data-image="img/167375.jpg"
+        data-description="ocen2">
+
+        <img alt="Image 3 Title" src="./img/168362.jpg"
+        data-image="img/168362.jpg"
+        data-description="ocen3">
+
+        <img alt="Image 4 Title" src="./img/2023_BMW_230i_M_Sport.jpg"
+        data-image="img/2023_BMW_230i_M_Sport.jpg"
+        data-description="ocen4">	
+
+        <img alt="Image 5 Title" src="./img/4f1135c7-d1ef0bb6d588d2a9a379b19a37020f34.jpg"
+        data-image="img/4f1135c7-d1ef0bb6d588d2a9a379b19a37020f34.jpg"
+        data-description="ocen5">
+
+        <img alt="Image 6 Title" src="./img/BMW_M3_Competition_(G80)_IMG_4042.jpg"
+        data-image="img/BMW_M3_Competition_(G80)_IMG_4042.jpg"
+        data-description="ocen6">	
+
+        <img alt="Image 7 Title" src="./img/ca00c976ee2f7270da9cc5277bdc7388.jpg"
+        data-image="img/ca00c976ee2f7270da9cc5277bdc7388.jpg"
+        data-description="ocen7">
+
+        
+      </div>
+
+      <!--UNITE GALLERY-->
+
+
+
+      <div class="container">
+        <h1>Video</h1>
+        <div id="gallery-video"> 
+				
+          <div data-type="youtube"
+             data-videoid="c1a2pnyupK0"
+             data-title="AMG E63s vs BMW M5"
+             data-description="bee"></div>
+
+             <div data-type="youtube"
+             data-videoid="hTfbnC8vS_Y"
+             data-title="BMW M5 Generations DRAG RACE"
+             data-description="relax"></div>
+
+
+             <div data-type="youtube"
+             data-videoid="A4orCB71BgY"
+             data-title="Ferrari SF90 v new Rimac Nevera:"
+             data-description="relax"></div>
+
+
+             <div data-type="youtube"
+             data-videoid="GE2W93FBdo8"
+             data-title="AMG G63 v Suzuki Jimny v Jeep Wrangler"
+             data-description="music"></div>
+
+             
+
+             <div data-type="youtube"
+             data-videoid="4flMF_Cb_4A"
+             data-title="Sliding In The Suburbs With A 650HP M4"
+             data-description="databases"></div>
+                
+          </div>
+      </div>
+   
+
+
+   
+
+  <!-- Підключення jQuery та jQuery UI -->
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <!-- Підключення власного скрипта -->
+  <script src="js/script.js"></script>
+  <script src="owlcarousel/owl.carousel.js"></script>
+  <!--UNITE GALLERY-->
+<script type="text/javascript" src="unitegallery/js/unitegallery.min.js"></script> 
+<script type="text/javascript" src="unitegallery/themes/default/ug-theme-default.js"></script> 
+
+<script type="text/javascript"> 
+
+  jQuery(document).ready(function(){ 
+    jQuery("#gallery").unitegallery(); 
+  }); 
+
+</script>
+
+
+<script src="unitegallery/themes/tiles/ug-theme-tiles.js" type="text/javascript"></script>
+
+<script src='unitegallery/themes/video/ug-theme-video.js' type='text/javascript'></script>
+
+
+<script>
+jQuery(document).ready(function(){
+
+jQuery("#gallery-nested").unitegallery({
+gallery_theme: "tiles",
+tiles_type: "nested"
+});
+});
+</script>
+
+
+<script>
+jQuery("#gallery-video").unitegallery({
+gallery_theme: "video"
+});
+</script>
+  
+
+
+</body>
+</html>
